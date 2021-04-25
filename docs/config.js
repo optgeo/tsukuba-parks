@@ -1,10 +1,10 @@
-var config = {
+const config = {
   "accessToken": "pk.eyJ1IjoiaGZ1IiwiYSI6ImlRSGJVUTAifQ.rTx380smyvPc1gUfZv1cmw",
   "byline": "by the United Nations Vector Tile Toolkit community",
   "chapters": [
     { // #17.16/36.085526/140.111088/105.6/50
       "alignment": "right",
-      "callback": "''",
+      "callback": null,
       "title": "中央公園",
       "description": "TXつくば駅の出口A2をのぼると、すぐそこにあるのが<a href='https://www.city.tsukuba.lg.jp/shisetsu/kouensports/kouen/1002823.html'>中央公園</a>です。隣にはエキスポセンターや民家園、図書館・美術館などが入っているつくば文化会館アルスがあります。",
       "hidden": false,
@@ -25,7 +25,7 @@ var config = {
     },
     { // #17.78/36.060907/140.121608/76.9/73
       "alignment": "right",
-      "callback": "''",
+      "callback": null,
       "title": "洞峰公園",
       "description": "<a href='http://tsud.co.jp/dohopark/'>洞峰公園</a>は、茨城県都市公園の一つです。面積は20haで、ソーラーシステムの屋内プールや体育館、テニスコート、野球場、アスレチックがあります。また、洞峰沼を中心としてウォーキング・ジョギングコースが整備され、植物や水鳥も観賞できます。",
       "hidden": false,
@@ -51,4 +51,5 @@ var config = {
   "subtitle": "筑波研究学園都市内の公園",
   "theme": "light",
   "title": "Tsukuba Parks"
-}
+};
+
